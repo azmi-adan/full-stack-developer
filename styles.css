@@ -189,31 +189,37 @@ footer a:hover {
 
 /* Dark and Light Mode Toggle */
 .light-mode {
-  background-color: #ffffff;
-  color: #121212;
+  background-color: #fefefe; /* Lighter background for better contrast */
+  color: #1e293b; /* Darker text for readability */
 }
 
 .light-mode .sidebar {
-  background: #f5f5f5;
-  color: #121212;
+  background: #e8eaf0; /* Subtle contrast for sidebar background */
+  color: #1e293b; /* Darker text */
 }
 
 .light-mode nav ul li a {
-  color: #121212;
+  color: #1e293b; /* Ensure text is readable against the sidebar background */
 }
 
 .light-mode nav ul li a:hover {
   color: #64ffda;
-  background: rgba(100, 255, 218, 0.2);
+  background: rgba(100, 255, 218, 0.3); /* Improved visibility on hover */
 }
 
 .light-mode footer {
-  background: #f5f5f5;
+  background: #e8eaf0; /* Footer matches sidebar for consistency */
+  color: #1e293b; /* Darker text */
+}
+
+.light-mode .skills-container div,
+.light-mode .project {
+  background: #f5f5f5; /* Lighter background in light mode */
 }
 
 .light-mode .skills-container div:hover,
 .light-mode .project:hover {
-  background: #dfe6ed;
+  background: #d1d9e6; /* Slightly darker hover effect for better contrast */
 }
 
 /* Responsive Design */
